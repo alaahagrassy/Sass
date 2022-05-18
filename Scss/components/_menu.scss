@@ -1,0 +1,27 @@
+.menu{
+
+    &__img{
+        width: 134px;
+        padding-top: 30px;
+      }
+
+      &__text{
+        padding-top: 46px;
+        list-style: none;
+        &__space{
+          margin-right: 31px;
+          font-weight: bold;
+          &__home{
+            color: $main-Color;
+          }
+          &__color{
+            color: $dark-opacity;
+          }
+        }
+      }
+
+      
+
+     
+
+}

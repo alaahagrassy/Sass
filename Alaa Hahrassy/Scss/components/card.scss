@@ -1,0 +1,41 @@
+.card{
+
+  &__first{
+    padding-left: 46px;
+    background-color: $white-color;
+    width: 219px;
+    height: 382px;
+    @include boxshadow;
+    padding-top: 9px;
+    padding-right: 46px;
+    transition: transform .3s;
+    &:hover{
+        transform: scale(1.03);
+    }
+
+    }
+    &__img{
+        font-size: 58px;
+        display: flex;
+        justify-content: center;
+    }
+    &__read{
+        display: flex;
+        color: $main-Color;
+        justify-content: center;
+    }
+    &__icon{
+        margin-left: 4px;
+        padding-top: 2px;
+        color: $main-Color;
+    }
+    &__h2{
+        padding-top: 14px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    &__p{
+        text-align: center;
+        padding-bottom: 14px;
+    }
+}

@@ -1,0 +1,13 @@
+.sponsor{
+    height: 145px;
+    padding-top: 87px;
+  
+    &__inner{
+    display: flex;
+    justify-content: space-around;
+    }
+    &__img{
+        max-width: 90px;
+        
+    }
+}

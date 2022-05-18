@@ -1,0 +1,13 @@
+.Carousel{
+    &__first{
+        padding-top: 26px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        height: 491px;
+        &__img{
+            width: 100%;
+
+        }
+    }
+}

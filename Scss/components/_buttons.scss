@@ -1,0 +1,60 @@
+.nav{
+
+    @include borderbottom;
+    padding-bottom: 14px;
+    position: relative;
+    top: 12px;
+    padding-right: 101px;
+    font-size: 14px;
+    background-color: $white-color;
+ 
+    &__btn{
+    text-decoration: none;
+    background: transparent;
+    padding: 5px;
+    color: $dark-color;
+}
+    &_hover{
+        &:hover{
+            color: $last-color;
+        }
+    }
+    &__icone-fill{
+        color: $main-Color;
+        padding-top: 6px;
+        font-size: 16px;
+    }
+ 
+    &__padding{
+        padding-left: 19px;
+        padding-top: 6px;
+    }
+    &__padding1{
+        padding-left: 46px;
+        padding-top: 6px;
+    }
+    &__col1{
+        display: flex;
+    }
+    &__col2{
+        display: flex;
+    }
+    &__number{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    &__rectangle{
+        font-weight: 700;
+        padding: 1rem 1.5rem;
+        border: 2px solid $main-Color;
+        background-color: $main-Color;
+        color: $white-color;
+        text-transform: uppercase;
+        border-radius: 7px;
+        &:hover{
+            background-color: $last-color;
+            border-color: $last-color;
+            color: white;
+        }
+    }
+}
